@@ -1,0 +1,7 @@
+num=set()
+a=int(input("enter the integer"))
+num.add(a)
+b=float(input("enter the number"))
+num.add(b)
+print(num)
+print(type(num))
