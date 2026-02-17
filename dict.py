@@ -1,7 +1,15 @@
-a={
+a=[{
     "name":"harry",
     "age":22,
-    "address":"nagaon"
-}
+    "address":"nagaon",
+    "food":{
+        "veg":"cabbage",
+        "nonveg":"egg"
+    }
 
-print(a["age"])
+    
+}]
+for info in a[0]["food"].values():
+    print(info)
+
+# print(a["food"]["veg"])
